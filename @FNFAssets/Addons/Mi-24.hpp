@@ -27,7 +27,7 @@ class FNF_OPF_Mi24P_gray : RHS_Mi24P_vvs
 	editorCategory = "FNFRUNAVY";
 	editorSubcategory = "HelicopterArmed";
 	side = 0;
-	displayName = "Mi-24P (Gray)"; //Ingame name
+	displayName = "Mi-24P"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};
@@ -35,12 +35,25 @@ class FNF_OPF_Mi24P_gray : RHS_Mi24P_vvs
 	typicalCargo[] = {};
 };
 
-class FNF_OPF_Mi24P_camo : RHS_Mi24P_vvsc
+class FNF_OPF_Mi24P_w : RHS_Mi24P_vvs
 {
-	editorCategory = "FNFRUARMY";
+	editorCategory = "FNFRUARMYWOOD";
 	editorSubcategory = "HelicopterArmed";
 	side = 0;
-	displayName = "Mi-24P (Camo)"; //Ingame name
+	displayName = "Mi-24P"; //Ingame name
+	class TransportItems {}; //Cargo Items
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+	typicalCargo[] = {};
+};
+
+class FNF_OPF_Mi24P_wint : RHS_Mi24P_vvs
+{
+	editorCategory = "FNFRUARMYWINT";
+	editorSubcategory = "HelicopterArmed";
+	side = 0;
+	displayName = "Mi-24P"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};
@@ -56,7 +69,7 @@ class FNF_OPF_Mi24VT_gray : RHS_Mi24Vt_vvs
 	editorCategory = "FNFRUNAVY";
 	editorSubcategory = "HelicopterArmed";
 	side = 0;
-	displayName = "Mi-24VT (Gray)"; //Ingame name
+	displayName = "Mi-24VT"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};
@@ -64,12 +77,25 @@ class FNF_OPF_Mi24VT_gray : RHS_Mi24Vt_vvs
 	typicalCargo[] = {};
 };
 
-class FNF_OPF_Mi24VT_camo : RHS_Mi24Vt_vvsc
+class FNF_OPF_Mi24VT_w : RHS_Mi24Vt_vvs
 {
-	editorCategory = "FNFRUARMY";
+	editorCategory = "FNFRUARMYWOOD";
 	editorSubcategory = "HelicopterArmed";
 	side = 0;
-	displayName = "Mi-24VT (Camo)"; //Ingame name
+	displayName = "Mi-24VT"; //Ingame name
+	class TransportItems {}; //Cargo Items
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+	typicalCargo[] = {};
+};
+
+class FNF_OPF_Mi24VT_wint : RHS_Mi24Vt_vvs
+{
+	editorCategory = "FNFRUARMYWINT";
+	editorSubcategory = "HelicopterArmed";
+	side = 0;
+	displayName = "Mi-24VT"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};

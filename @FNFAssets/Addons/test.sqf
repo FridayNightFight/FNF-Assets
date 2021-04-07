@@ -1,0 +1,1 @@
+if (local (_this select 0)) then {[(_this select 0), ['Desert',1], false] call BIS_fnc_initVehicle;}; (_this select 0) animateSource ['Hide_Turret_Armor_Front',0]; (_this select 0) animateSource ['Hide_Turret_Armor_Side',0]; (_this select 0) animateSource ['IFF_Panels_Hide',1];

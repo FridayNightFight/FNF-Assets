@@ -1,9 +1,37 @@
 
 class RHS_AH1Z;
 
-class FNF_BLU_AH1Z : RHS_AH1Z
+class FNF_BLU_AH1Z_W : RHS_AH1Z
 {
-	editorCategory = "FNFUSMC";
+	editorCategory = "FNFUSMCWOOD";
+	editorSubcategory = "HelicopterArmed";
+	side = 1;
+	displayName = "AH-1Z Cobra"; //Ingame name
+	class TransportItems {}; //Cargo Items
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+	typicalCargo[] = {};
+	/* class Components
+	{
+		class TransportPylonsComponent
+		{
+			class pylons
+			{
+				class pylonTip1 {};
+				class pylon2 {};
+				class pylon3 {};
+				class pylon4 {};
+				class pylon5 {};
+				class pylonTip6 {};
+			};
+		};
+	}; */
+};
+
+class FNF_BLU_AH1Z_D : RHS_AH1Z
+{
+	editorCategory = "FNFUSMCDES";
 	editorSubcategory = "HelicopterArmed";
 	side = 1;
 	displayName = "AH-1Z Cobra"; //Ingame name

@@ -21,7 +21,7 @@ class FNF_OPF_Mi8AMTSH_gray : RHS_Mi8AMTSH_vvs
 	editorCategory = "FNFRUNAVY";
 	editorSubcategory = "HelicopterArmed";
 	side = 0;
-	displayName = "MI-8AMTSh (Gray)"; //Ingame name
+	displayName = "MI-8AMTSh"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};
@@ -29,12 +29,12 @@ class FNF_OPF_Mi8AMTSH_gray : RHS_Mi8AMTSH_vvs
 	typicalCargo[] = {};
 };
 
-class FNF_OPF_Mi8AMTSH_camo : RHS_Mi8AMTSH_vvsc
+class FNF_OPF_Mi8AMTSH_w : RHS_Mi8AMTSH_vvs
 {
-	editorCategory = "FNFRUARMY";
+	editorCategory = "FNFRUARMYWOOD";
 	editorSubcategory = "HelicopterArmed";
 	side = 0;
-	displayName = "MI-8AMTSh (Camo)"; //Ingame name
+	displayName = "MI-8AMTSh"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};
@@ -48,7 +48,7 @@ class FNF_IND_Mi8AMTSH_camo : rhsgref_cdf_reg_Mi17Sh
 	editorCategory = "FNFCDF";
 	editorSubcategory = "HelicopterArmed";
 	side = 2;
-	displayName = "MI-8AMTSh (Camo)"; //Ingame name
+	displayName = "MI-8AMTSh"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};
@@ -64,7 +64,7 @@ class FNF_OPF_Mi8MTV3_gray : RHS_Mi8MTV3_vvs
 	editorCategory = "FNFRUNAVY";
 	editorSubcategory = "HelicopterArmed";
 	side = 0;
-	displayName = "MI-8MTV-3 (Gray)"; //Ingame name
+	displayName = "MI-8MTV-3"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};
@@ -72,12 +72,12 @@ class FNF_OPF_Mi8MTV3_gray : RHS_Mi8MTV3_vvs
 	typicalCargo[] = {};
 };
 
-class FNF_OPF_Mi8MTV3_camo : RHS_Mi8MTV3_vvsc
+class FNF_OPF_Mi8MTV3_w : RHS_Mi8MTV3_vvs
 {
-	editorCategory = "FNFRUARMY";
+	editorCategory = "FNFRUARMYWOOD";
 	editorSubcategory = "HelicopterArmed";
 	side = 0;
-	displayName = "MI-8MTV-3 (Camo)"; //Ingame name
+	displayName = "MI-8MTV-3"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};
@@ -93,7 +93,7 @@ class FNF_OPF_Mi8AMT_gray : RHS_Mi8AMT_vvs
 	editorCategory = "FNFRUNAVY";
 	editorSubcategory = "HelicopterTransport";
 	side = 0;
-	displayName = "MI-8AMT (Gray)"; //Ingame name
+	displayName = "MI-8AMT"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};
@@ -101,12 +101,12 @@ class FNF_OPF_Mi8AMT_gray : RHS_Mi8AMT_vvs
 	typicalCargo[] = {};
 };
 
-class FNF_OPF_Mi8AMT_camo : RHS_Mi8AMT_vvsc
+class FNF_OPF_Mi8AMT_w : RHS_Mi8AMT_vvs
 {
-	editorCategory = "FNFRUARMY";
+	editorCategory = "FNFRUARMYWOOD";
 	editorSubcategory = "HelicopterTransport";
 	side = 0;
-	displayName = "MI-8AMT (Camo)"; //Ingame name
+	displayName = "MI-8AMT"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};
@@ -135,7 +135,7 @@ class FNF_OPF_Mi8MT_gray : RHS_Mi8MT_vvs
 	editorCategory = "FNFRUNAVY";
 	editorSubcategory = "HelicopterArmed";
 	side = 0;
-	displayName = "MI-8MT (Gray)"; //Ingame name
+	displayName = "MI-8MT"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};
@@ -143,12 +143,12 @@ class FNF_OPF_Mi8MT_gray : RHS_Mi8MT_vvs
 	typicalCargo[] = {};
 };
 
-class FNF_OPF_Mi8MT_camo : RHS_Mi8MT_vvsc
+class FNF_OPF_Mi8MT_w : RHS_Mi8MT_vvs
 {
-	editorCategory = "FNFRUARMY";
+	editorCategory = "FNFRUARMYWOOD";
 	editorSubcategory = "HelicopterArmed";
 	side = 0;
-	displayName = "MI-8MT (Camo)"; //Ingame name
+	displayName = "MI-8MT"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};
@@ -164,7 +164,7 @@ class FNF_OPF_Mi8T_gray : RHS_Mi8T_vvs
 	editorCategory = "FNFRUNAVY";
 	editorSubcategory = "HelicopterTransport";
 	side = 0;
-	displayName = "MI-8T (Gray)"; //Ingame name
+	displayName = "MI-8T"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};
@@ -172,12 +172,12 @@ class FNF_OPF_Mi8T_gray : RHS_Mi8T_vvs
 	typicalCargo[] = {};
 };
 
-class FNF_OPF_Mi8T_camo : RHS_Mi8T_vvsc
+class FNF_OPF_Mi8T_w : RHS_Mi8T_vvs
 {
-	editorCategory = "FNFRUARMY";
+	editorCategory = "FNFRUARMYWOOD";
 	editorSubcategory = "HelicopterTransport";
 	side = 0;
-	displayName = "MI-8T (Camo)"; //Ingame name
+	displayName = "MI-8T"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};
