@@ -40,7 +40,7 @@ class FNF_BLU_M1117_wint : rhsusf_M1117_W
 	class TransportBackpacks {};
 	typicalCargo[] = {};
 };
-
+/* 
 class FNF_IND_M1117_o : rhsusf_M1117_O
 {
 	editorCategory = "FNFGUERILLA";
@@ -52,4 +52,4 @@ class FNF_IND_M1117_o : rhsusf_M1117_O
 	class TransportWeapons {};
 	class TransportBackpacks {};
 	typicalCargo[] = {};
-};
+}; */

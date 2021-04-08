@@ -6,7 +6,7 @@ class RHS_CH_47F_light;
 
 class FNF_BLU_CH47F_w : RHS_CH_47F
 {
-	editorCategory = "FNFUSMCWOOD";
+	editorCategory = "FNFUSARMYWOOD";
 	editorSubcategory = "HelicopterArmed";
 	side = 1;
 	displayName = "CH-47F"; //Ingame name
@@ -19,7 +19,7 @@ class FNF_BLU_CH47F_w : RHS_CH_47F
 
 class FNF_BLU_CH47F_d : RHS_CH_47F_light
 {
-	editorCategory = "FNFUSMCDES";
+	editorCategory = "FNFUSARMYDES";
 	editorSubcategory = "HelicopterArmed";
 	side = 1;
 	displayName = "CH-47F"; //Ingame name

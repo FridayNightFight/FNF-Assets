@@ -1,6 +1,51 @@
 class RHS_UAZ_MSV_01;
 class rhs_uaz_open_MSV_01;
 
+// UAZ-3151 (DShKM)
+
+class rhsgref_ins_uaz_dshkm;
+class rhsgref_cdf_reg_uaz_dshkm;
+
+class FNF_OPF_UAZ_DShKM_w : rhsgref_ins_uaz_dshkm
+{
+	editorCategory = "FNFRUARMYWOOD";
+	editorSubcategory = "CarsArmed";
+	side = 0;
+	displayName = "UAZ-3151 (DShKM)"; //Ingame name
+	class TransportItems {}; //Cargo Items
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+	typicalCargo[] = {};
+};
+
+class FNF_IND_UAZ_DShKM_cdf : rhsgref_cdf_reg_uaz_dshkm
+{
+	editorCategory = "FNFCDF";
+	editorSubcategory = "CarsArmed";
+	side = 2;
+	displayName = "UAZ-3151 (DShKM)"; //Ingame name
+	class TransportItems {}; //Cargo Items
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+	typicalCargo[] = {};
+};
+
+class FNF_IND_UAZ_DShKM_guer : rhsgref_cdf_reg_uaz_dshkm
+{
+	editorCategory = "FNFGUERILLA";
+	editorSubcategory = "CarsArmed";
+	side = 2;
+	displayName = "UAZ-3151 (DShKM)"; //Ingame name
+	class TransportItems {}; //Cargo Items
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+	typicalCargo[] = {};
+};
+
+
 
 // UAZ-3151
 

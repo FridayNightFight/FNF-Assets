@@ -1,43 +1,13 @@
-class RHS_UH1Y;
-class RHS_UH1Y_UNARMED;
+// CH-53E (Unarmed)
 
-// UH-1Y (MG)
+class rhsusf_CH53E_USMC;
 
-class FNF_BLU_UH1Y_w : RHS_UH1Y
-{
-	editorCategory = "FNFUSMCWOOD";
-	editorSubcategory = "HelicopterArmed";
-	side = 1;
-	displayName = "UH-1Y (MG)"; //Ingame name
-	class TransportItems {}; //Cargo Items
-	class TransportMagazines {};
-	class TransportWeapons {};
-	class TransportBackpacks {};
-	typicalCargo[] = {};
-};
-
-class FNF_BLU_UH1Y_d : RHS_UH1Y
-{
-	editorCategory = "FNFUSMCDES";
-	editorSubcategory = "HelicopterArmed";
-	side = 1;
-	displayName = "UH-1Y (MG)"; //Ingame name
-	class TransportItems {}; //Cargo Items
-	class TransportMagazines {};
-	class TransportWeapons {};
-	class TransportBackpacks {};
-	typicalCargo[] = {};
-};
-
-
-// UH-1Y (Unarmed)
-
-class FNF_BLU_UH1Y_UNARMED_w : RHS_UH1Y_UNARMED
+class FNF_BLU_CH53E_w : rhsusf_CH53E_USMC
 {
 	editorCategory = "FNFUSMCWOOD";
 	editorSubcategory = "HelicopterTransport";
 	side = 1;
-	displayName = "UH-1Y (Unarmed)"; //Ingame name
+	displayName = "CH-53E (Unarmed)"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};
@@ -45,12 +15,43 @@ class FNF_BLU_UH1Y_UNARMED_w : RHS_UH1Y_UNARMED
 	typicalCargo[] = {};
 };
 
-class FNF_BLU_UH1Y_UNARMED_d : RHS_UH1Y_UNARMED
+class FNF_BLU_CH53E_d : rhsusf_CH53E_USMC
 {
 	editorCategory = "FNFUSMCDES";
 	editorSubcategory = "HelicopterTransport";
 	side = 1;
-	displayName = "UH-1Y (Unarmed)"; //Ingame name
+	displayName = "CH-53E (Unarmed)"; //Ingame name
+	class TransportItems {}; //Cargo Items
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+	typicalCargo[] = {};
+};
+
+
+
+// CH-53E (GAU-21)
+class rhsusf_CH53E_USMC_GAU21;
+
+class FNF_BLU_CH53E_GAU21_w : rhsusf_CH53E_USMC_GAU21
+{
+	editorCategory = "FNFUSMCWOOD";
+	editorSubcategory = "HelicopterArmed";
+	side = 1;
+	displayName = "CH-53E (GAU-21 12x7mm)"; //Ingame name
+	class TransportItems {}; //Cargo Items
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+	typicalCargo[] = {};
+};
+
+class FNF_BLU_CH53E_GAU21_d : rhsusf_CH53E_USMC_GAU21
+{
+	editorCategory = "FNFUSMCDES";
+	editorSubcategory = "HelicopterArmed";
+	side = 1;
+	displayName = "CH-53E (GAU-21 12x7mm)"; //Ingame name
 	class TransportItems {}; //Cargo Items
 	class TransportMagazines {};
 	class TransportWeapons {};

@@ -52,6 +52,29 @@ Camo4 // UN
 standard // olive
 Takistan // desert camo
 
+# UAZ Armed OPF
+Camo // woodland
+Camo1 // Chdkz
+Camo2 // CDF
+Camo4 // UN
+standard // olive
+
+# Offroad
+EAF
+Green
+Guerilla_01
+Guerilla_02
+Guerilla_03
+Guerilla_04
+Guerilla_05
+Guerilla_06
+Guerilla_07
+Guerilla_08
+Guerilla_09
+Guerilla_10
+Guerilla_11
+Guerilla_12
+ParkRanger
 
 # RHS_Mi8AMT_vvs
 Camo // CDF
