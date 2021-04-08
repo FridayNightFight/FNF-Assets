@@ -113,7 +113,7 @@ class FNF_BLU_m998_2dr_fulltop_usarmy_w : rhsusf_m998_w_2dr_fulltop
 	typicalCargo[] = {};
 };
 
-class FNF_BLU_m998_2dr_fulltop_usarmy_d : rhsusf_m998_w_2dr_fulltop
+class FNF_BLU_m998_2dr_fulltop_usarmy_d : rhsusf_m998_d_2dr_fulltop
 {
 	editorCategory = "FNFUSARMYDES";
 	editorSubcategory = "CarsUnarmed";
@@ -145,7 +145,7 @@ class FNF_BLU_m998_2dr_halftop_usarmy_w : rhsusf_m998_w_2dr_halftop
 	typicalCargo[] = {};
 };
 
-class FNF_BLU_m998_2dr_halftop_usarmy_d : rhsusf_m998_w_2dr_halftop
+class FNF_BLU_m998_2dr_halftop_usarmy_d : rhsusf_m998_d_2dr_halftop
 {
 	editorCategory = "FNFUSARMYDES";
 	editorSubcategory = "CarsUnarmed";

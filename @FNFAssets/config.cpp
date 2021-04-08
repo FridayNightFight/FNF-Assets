@@ -221,6 +221,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "IFVs";
 	};
+	class Trucks
+	{
+		displayName = "Trucks";
+	};
 	// EdSubcat_APCs
 	// EdSubcat_AAs
 	// EdSubcat_Boats
@@ -250,6 +254,7 @@ class CfgVehicles //Used for defining any vehicle/unit
 	#include "Addons/Mi-8.hpp"
 	#include "Addons/Mi-24.hpp"
 	#include "Addons/offroad.hpp"
+	#include "Addons/trucksbluarmy.hpp"
 	#include "Addons/uaz.hpp"
 	#include "Addons/uh-1y.hpp"
 	#include "Addons/uh-60m.hpp"
@@ -274,6 +279,7 @@ class Extended_Init_EventHandlers
 	#include "Addons/Mi-8init.hpp"
 	#include "Addons/Mi-24init.hpp"
 	#include "Addons/offroadinit.hpp"
+	#include "Addons/trucksbluarmyinit.hpp"
 	#include "Addons/uazinit.hpp"
 	#include "Addons/uh-1yinit.hpp"
 	#include "Addons/uh-60minit.hpp"
