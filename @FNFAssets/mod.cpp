@@ -1,0 +1,9 @@
+name = "FNF Assets";
+picture = "fnf.paa";
+actionName = "actionName";
+action = "https://discord.gg/y4Rygfd";
+logo = "fnf.paa"; 
+logoOver = "fnf.paa"; 
+tooltip = "FNF Assets"; 
+overview = "Vehicles tailored for play in the Friday Night Fight."; 
+author = "FNF Technical Team";

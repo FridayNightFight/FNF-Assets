@@ -1,22 +1,15 @@
-//Hope this helps you out :)
-//Constructed by BroBeans and you are free to use this
-
 class CfgPatches
 {
 	class FNFAssets
 	{
 
-		// Meta information for editor
 		name = "FNF Assets";
 		author = "FNF Staff Technical Team";
 		url = "https://discord.gg/y4Rygfd";
 
-		// Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
 		requiredVersion = 1.60; 
-		// Required addons, used for setting load order.
-		// When any of the addons is missing, pop-up warning will appear when launching the game.
 		requiredAddons[] = { "rhsgref_main","rhssaf_main", "rhsusf_main","rhs_main" };
-		// List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
+
 		unit[] = {
 			"FNF_OPF_2b14_w",
 			"FNF_OPF_2b14_d",
@@ -54,6 +47,32 @@ class CfgPatches
 			"FNF_BLU_CH47F_d",
 			"FNF_OPF_GAZ_ARMED_o",
 			"FNF_OPF_GAZ_ARMED_3tone",
+			"FNF_BLU_m1151_m2_usarmy_w",
+			"FNF_BLU_m1151_m2_usarmy_d",
+			"FNF_BLU_m1151_m240_usarmy_w",
+			"FNF_BLU_m1151_m240_usarmy_d",
+			"FNF_BLU_m1151_usarmy_w",
+			"FNF_BLU_m1151_usarmy_d",
+			"FNF_BLU_m998_2dr_fulltop_usarmy_w",
+			"FNF_BLU_m998_2dr_fulltop_usarmy_d",
+			"FNF_BLU_m998_2dr_halftop_usarmy_w",
+			"FNF_BLU_m998_2dr_halftop_usarmy_d",
+			"FNF_BLU_m998_4dr_halftop_usarmy_w",
+			"FNF_BLU_m998_4dr_halftop_usarmy_d",
+			"FNF_BLU_m1151_m2_usmc_wd",
+			"FNF_BLU_m1151_m2_usmc_d",
+			"FNF_BLU_m1151_m240_usmc_wd",
+			"FNF_BLU_m1151_m240_usmc_d",
+			"FNF_BLU_m1151_usmc_w",
+			"FNF_BLU_m1151_usmc_d",
+			"FNF_BLU_m998_2dr_fulltop_usmc_w",
+			"FNF_BLU_m998_2dr_fulltop_usmc_d",
+			"FNF_BLU_m998_2dr_halftop_usmc_w",
+			"FNF_BLU_m998_2dr_halftop_usmc_d",
+			"FNF_BLU_m998_4dr_halftop_usmc_w",
+			"FNF_BLU_m998_4dr_halftop_usmc_d",
+			"FNF_OPF_Ka52_w",
+			"FNF_OPF_Ka52_gray",
 			"FNF_BLU_AH6M_w",
 			"FNF_BLU_AH6M_d",
 			"FNF_BLU_M1117_w",
@@ -101,6 +120,18 @@ class CfgPatches
 			"FNF_IND_Offroad_cdf",
 			"FNF_IND_Offroad_guer_w",
 			"FNF_IND_Offroad_guer_d",
+			"FNF_BLU_M1078A1P2_B_M2_usarmy_w",
+			"FNF_BLU_M1078A1P2_B_M2_usarmy_d",
+			"FNF_BLU_M1083A1P2_B_M2_usarmy_w",
+			"FNF_BLU_M1083A1P2_B_M2_usarmy_d",
+			"FNF_OPF_Ural_cov_camo",
+			"FNF_OPF_Ural_cov_desert",
+			"FNF_IND_Ural_cov_cdf",
+			"FNF_IND_Ural_cov_green",
+			"FNF_OPF_Ural_open_camo",
+			"FNF_OPF_Ural_open_desert",
+			"FNF_IND_Ural_open_cdf",
+			"FNF_IND_Ural_open_green",
 			"FNF_OPF_UAZ_DShKM_w",
 			"FNF_IND_UAZ_DShKM_cdf",
 			"FNF_IND_UAZ_DShKM_guer",
@@ -123,78 +154,77 @@ class CfgPatches
 			"FNF_BLU_UH60M_ILLUM_w",
 			"FNF_BLU_UH60M_ILLUM_d"
 		};
-		// List of weapons (CfgWeapons classes) contained in the addon.
 		weapons[] = {};
 	};
 };
 
-class CfgEditorCategories //Replacement for Factions
+class CfgEditorCategories
 {
-	class FNFRUARMYWOOD // Faction name, please make it somewhat unique
+	class FNFRUARMYWOOD
 	{
-		displayName = " FNF Assets - Russian Army Woodland"; // Name visible in the list
-		priority = 1; //How far down it appears in the menu
-		side = 0; //0 = Opfor, 1 = Blufor, 2 = Independent, 3 = Civillian
+		displayName = " FNF Assets - Russian Army Woodland";
+		priority = 1;
+		side = 0;
 	};
-	class FNFRUARMYDES // Faction name, please make it somewhat unique
+	class FNFRUARMYDES
 	{
-		displayName = " FNF Assets - Russian Army Desert"; // Name visible in the list
-		priority = 1; //How far down it appears in the menu
-		side = 0; //0 = Opfor, 1 = Blufor, 2 = Independent, 3 = Civillian
+		displayName = " FNF Assets - Russian Army Desert";
+		priority = 1;
+		side = 0;
 	};
-	class FNFRUARMYWINT// Faction name, please make it somewhat unique
+	class FNFRUARMYWINT
 	{
-		displayName = " FNF Assets - Russian Army Winter"; // Name visible in the list
-		priority = 1; //How far down it appears in the menu
-		side = 0; //0 = Opfor, 1 = Blufor, 2 = Independent, 3 = Civillian
+		displayName = " FNF Assets - Russian Army Winter";
+		priority = 1;
+		side = 0;
 	};
-	class FNFRUNAVY // Faction name, please make it somewhat unique
+	class FNFRUNAVY
 	{
-		displayName = " FNF Assets - Russian Navy"; // Name visible in the list
-		priority = 1; //How far down it appears in the menu
-		side = 0; //0 = Opfor, 1 = Blufor, 2 = Independent, 3 = Civillian
+		displayName = " FNF Assets - Russian Navy";
+		priority = 1;
+		side = 0;
 	};
-	class FNFUSARMYWOOD // Faction name, please make it somewhat unique
+	class FNFUSARMYWOOD
 	{
-		displayName = " FNF Assets - US Army Woodland"; // Name visible in the list
-		priority = 1; //How far down it appears in the menu
-		side = 1; //0 = Opfor, 1 = Blufor, 2 = Independent, 3 = Civillian
+		displayName = " FNF Assets - US Army Woodland";
+		priority = 1;
+		side = 1;
 	};
-	class FNFUSARMYDES // Faction name, please make it somewhat unique
+	class FNFUSARMYDES
 	{
-		displayName = " FNF Assets - US Army Desert"; // Name visible in the list
-		priority = 1; //How far down it appears in the menu
-		side = 1; //0 = Opfor, 1 = Blufor, 2 = Independent, 3 = Civillian
+		displayName = " FNF Assets - US Army Desert";
+		priority = 1;
+		side = 1;
 	};
-	class FNFUSARMYWINT // Faction name, please make it somewhat unique
+	class FNFUSARMYWINT
 	{
-		displayName = " FNF Assets - US Army Winter"; // Name visible in the list
-		priority = 1; //How far down it appears in the menu
-		side = 1; //0 = Opfor, 1 = Blufor, 2 = Independent, 3 = Civillian
+		displayName = " FNF Assets - US Army Winter";
+		priority = 1;
+		side = 1;
 	};
-	class FNFUSMCWOOD // Faction name, please make it somewhat unique
+	class FNFUSMCWOOD
 	{
-		displayName = " FNF Assets - US Marines Woodland"; // Name visible in the list
-		priority = 1; //How far down it appears in the menu
-		side = 1; //0 = Opfor, 1 = Blufor, 2 = Independent, 3 = Civillian
+		displayName = " FNF Assets - US Marines Woodland";
+		priority = 1;
+		side = 1;
 	};
-	class FNFUSMCDES // Faction name, please make it somewhat unique
+	class FNFUSMCDES
 	{
-		displayName = " FNF Assets - US Marines Desert"; // Name visible in the list
-		priority = 1; //How far down it appears in the menu
-		side = 1; //0 = Opfor, 1 = Blufor, 2 = Independent, 3 = Civillian
+		displayName = " FNF Assets - US Marines Desert";
+		priority = 1;
+		side = 1;
 	};
-	class FNFCDF // Faction name, please make it somewhat unique
+	class FNFCDF
 	{
-		displayName = " FNF Assets - Chernarussian Movement"; // Name visible in the list
-		priority = 1; //How far down it appears in the menu
-		side = 2; //0 = Opfor, 1 = Blufor, 2 = Independent, 3 = Civillian
+		displayName = " FNF Assets - Chernarussian Movement";
+		priority = 1;
+		side = 2;
 	};
-	class FNFGUERILLA // Faction name, please make it somewhat unique
+	class FNFGUERILLA
 	{
-		displayName = " FNF Assets - Guerilla Forces"; // Name visible in the list
-		priority = 1; //How far down it appears in the menu
-		side = 2; //0 = Opfor, 1 = Blufor, 2 = Independent, 3 = Civillian
+		displayName = " FNF Assets - Guerilla Forces";
+		priority = 1;
+		side = 2;
 	};
 };
 
@@ -234,57 +264,59 @@ class CfgEditorSubcategories
 	// EdSubcat_Turrets
 };
 
-class CfgVehicles //Used for defining any vehicle/unit
+class CfgVehicles
 {
-	#include "Addons/2b14podnos.hpp"
-	#include "Addons/ah1z.hpp"
-	#include "Addons/boats.hpp"
-	#include "Addons/brdm.hpp"
-	#include "Addons/btr.hpp"
-	#include "Addons/ch-47.hpp"
-	#include "Addons/ch-53.hpp"
-	#include "Addons/gaz.hpp"
-	#include "Addons/ka-52.hpp"
-	#include "Addons/hmmvbluarmy.hpp"
-	#include "Addons/hmmvbluusmc.hpp"
-	#include "Addons/littlebirds.hpp"
-	#include "Addons/m113.hpp"
-	#include "Addons/m1117.hpp"
-	#include "Addons/m252.hpp"
-	#include "Addons/md500.hpp"
-	#include "Addons/Mi-8.hpp"
-	#include "Addons/Mi-24.hpp"
-	#include "Addons/offroad.hpp"
-	#include "Addons/statics.hpp"
-	#include "Addons/trucksbluarmy.hpp"
-	#include "Addons/uaz.hpp"
-	#include "Addons/uh-1y.hpp"
-	#include "Addons/uh-60m.hpp"
+	#include "addons\2b14podnos.hpp"
+	#include "addons\ah1z.hpp"
+	#include "addons\boats.hpp"
+	#include "addons\brdm.hpp"
+	#include "addons\btr.hpp"
+	#include "addons\ch-47.hpp"
+	#include "addons\ch-53.hpp"
+	#include "addons\gaz.hpp"
+	#include "addons\ka-52.hpp"
+	#include "addons\hmmvbluarmy.hpp"
+	#include "addons\hmmvbluusmc.hpp"
+	#include "addons\littlebirds.hpp"
+	#include "addons\m113.hpp"
+	#include "addons\m1117.hpp"
+	#include "addons\m252.hpp"
+	#include "addons\md500.hpp"
+	#include "addons\Mi-8.hpp"
+	#include "addons\Mi-24.hpp"
+	#include "addons\offroad.hpp"
+	#include "addons\statics.hpp"
+	#include "addons\trucksbluarmy.hpp"
+	#include "addons\trucksopfind.hpp"
+	#include "addons\uaz.hpp"
+	#include "addons\uh-1y.hpp"
+	#include "addons\uh-60m.hpp"
 
 };
 
 class Extended_Init_EventHandlers
 {
-	#include "Addons/2b14podnosinit.hpp"
-	#include "Addons/ah1zinit.hpp"
-	#include "Addons/boatsinit.hpp"
-	#include "Addons/brdminit.hpp"
-	#include "Addons/btrinit.hpp"
-	#include "Addons/ch-47init.hpp"
-	#include "Addons/gazinit.hpp"
-	#include "Addons/ka-52init.hpp"
-	#include "Addons/hmmvbluarmyinit.hpp"
-	#include "Addons/hmmvbluusmcinit.hpp"
-	#include "Addons/littlebirdsinit.hpp"
-	#include "Addons/m113init.hpp"
-	#include "Addons/m252init.hpp"
-	#include "Addons/m1117init.hpp"
-	#include "Addons/Mi-8init.hpp"
-	#include "Addons/Mi-24init.hpp"
-	#include "Addons/offroadinit.hpp"
-	#include "Addons/trucksbluarmyinit.hpp"
-	#include "Addons/uazinit.hpp"
-	#include "Addons/uh-1yinit.hpp"
-	#include "Addons/uh-60minit.hpp"
+	#include "addons\2b14podnosinit.hpp"
+	#include "addons\ah1zinit.hpp"
+	#include "addons\boatsinit.hpp"
+	#include "addons\brdminit.hpp"
+	#include "addons\btrinit.hpp"
+	#include "addons\ch-47init.hpp"
+	#include "addons\gazinit.hpp"
+	#include "addons\ka-52init.hpp"
+	#include "addons\hmmvbluarmyinit.hpp"
+	#include "addons\hmmvbluusmcinit.hpp"
+	#include "addons\littlebirdsinit.hpp"
+	#include "addons\m113init.hpp"
+	#include "addons\m252init.hpp"
+	#include "addons\m1117init.hpp"
+	#include "addons\Mi-8init.hpp"
+	#include "addons\Mi-24init.hpp"
+	#include "addons\offroadinit.hpp"
+	#include "addons\trucksbluarmyinit.hpp"
+	#include "addons\trucksopfindinit.hpp"
+	#include "addons\uazinit.hpp"
+	#include "addons\uh-1yinit.hpp"
+	#include "addons\uh-60minit.hpp"
 
 };
